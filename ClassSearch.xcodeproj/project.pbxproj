@@ -45,6 +45,9 @@
 		77A8439E1DB5CF0A00D54A31 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8439C1DB5CF0A00D54A31 /* TestCell.m */; };
 		77A8439F1DB5CF0A00D54A31 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A8439D1DB5CF0A00D54A31 /* TestCell.xib */; };
 		77A843A11DB5CF4900D54A31 /* Nextviews in Resources */ = {isa = PBXBuildFile; fileRef = 77A843A01DB5CF4900D54A31 /* Nextviews */; };
+		77A843EC1DB61E4D00D54A31 /* HistoryRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A843E81DB61E4D00D54A31 /* HistoryRecordCell.m */; };
+		77A843ED1DB61E4D00D54A31 /* HistoryRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A843E91DB61E4D00D54A31 /* HistoryRecordCell.xib */; };
+		77A843EE1DB61E4D00D54A31 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A843EB1DB61E4D00D54A31 /* HistoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +146,11 @@
 		77A8439C1DB5CF0A00D54A31 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
 		77A8439D1DB5CF0A00D54A31 /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
 		77A843A01DB5CF4900D54A31 /* Nextviews */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Nextviews; sourceTree = "<group>"; };
+		77A843E71DB61E4D00D54A31 /* HistoryRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryRecordCell.h; sourceTree = "<group>"; };
+		77A843E81DB61E4D00D54A31 /* HistoryRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryRecordCell.m; sourceTree = "<group>"; };
+		77A843E91DB61E4D00D54A31 /* HistoryRecordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryRecordCell.xib; sourceTree = "<group>"; };
+		77A843EA1DB61E4D00D54A31 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		77A843EB1DB61E4D00D54A31 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +209,7 @@
 				774BBA4F1DB4A9EE0066B4D8 /* AddClassSearchController.m */,
 				77A843891DB5CA8600D54A31 /* NextViewController.h */,
 				77A8438A1DB5CA8600D54A31 /* NextViewController.m */,
+				77A843E61DB61E4D00D54A31 /* 历史记录 */,
 				77A843A01DB5CF4900D54A31 /* Nextviews */,
 				774BBA541DB4AA470066B4D8 /* AddClassSearchViews */,
 				774BBA5C1DB4AC5A0066B4D8 /* ThreeLib */,
@@ -342,6 +351,18 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		77A843E61DB61E4D00D54A31 /* 历史记录 */ = {
+			isa = PBXGroup;
+			children = (
+				77A843E71DB61E4D00D54A31 /* HistoryRecordCell.h */,
+				77A843E81DB61E4D00D54A31 /* HistoryRecordCell.m */,
+				77A843E91DB61E4D00D54A31 /* HistoryRecordCell.xib */,
+				77A843EA1DB61E4D00D54A31 /* HistoryViewController.h */,
+				77A843EB1DB61E4D00D54A31 /* HistoryViewController.m */,
+			);
+			path = "历史记录";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -457,6 +478,7 @@
 				77A8439F1DB5CF0A00D54A31 /* TestCell.xib in Resources */,
 				77A843A11DB5CF4900D54A31 /* Nextviews in Resources */,
 				774BBA201DB4A4210066B4D8 /* Main.storyboard in Resources */,
+				77A843ED1DB61E4D00D54A31 /* HistoryRecordCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +506,7 @@
 				774BBA1D1DB4A4210066B4D8 /* ViewController.m in Sources */,
 				774BBA861DB4B8B30066B4D8 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				774BBA971DB4C3130066B4D8 /* UITableView+FDKeyedHeightCache.m in Sources */,
+				77A843EE1DB61E4D00D54A31 /* HistoryViewController.m in Sources */,
 				774BBA5A1DB4AC100066B4D8 /* Hotview.m in Sources */,
 				774BBA7D1DB4AC630066B4D8 /* NSArray+MASAdditions.m in Sources */,
 				774BBA501DB4A9EE0066B4D8 /* AddClassSearchController.m in Sources */,
@@ -502,6 +525,7 @@
 				774BBA1A1DB4A4210066B4D8 /* AppDelegate.m in Sources */,
 				774BBA531DB4AA2B0066B4D8 /* CustomSearchBar.m in Sources */,
 				774BBA171DB4A4210066B4D8 /* main.m in Sources */,
+				77A843EC1DB61E4D00D54A31 /* HistoryRecordCell.m in Sources */,
 				774BBAA91DB4CEE10066B4D8 /* UILabel+LXLabel.m in Sources */,
 				774BBA991DB4C3130066B4D8 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				774BBA961DB4C3130066B4D8 /* UITableView+FDIndexPathHeightCache.m in Sources */,

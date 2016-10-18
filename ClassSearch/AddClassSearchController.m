@@ -8,6 +8,7 @@
 
 #import "AddClassSearchController.h"
 #import "CustomSearchBar.h"
+#import "HistoryViewController.h"
 #import "Hotview.h"
 #import "HotWords.h"
 #import "HistoryCell.h"
@@ -91,7 +92,9 @@
 #pragma mark---点击热词代理方法---
 -(void)hotviewBtnClick:(UIButton *)button
 {
-    [self nextVC];
+    HistoryViewController *history =[[HistoryViewController alloc]init];
+    [self.navigationController pushViewController:history animated:YES];
+    
 
 }
 -(void)nextVC
